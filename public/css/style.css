@@ -334,7 +334,8 @@ body.bts {
   .request-quote-block .bullets {
     color: #357f95; }
   .request-quote-block #request-instruction {
-    margin-top: 20px; }
+    margin-top: 20px;
+    color: #357f95; }
 
 .intro-container {
   background: #225465;
@@ -1007,7 +1008,7 @@ body.bts {
     z-index: -1;
     right: 32px;
     top: 32px;
-    width: 200px;
+    width: 230px;
     float: left;
     border: 1px solid rgba(71, 167, 196, 0.3);
     background: white;
@@ -1016,13 +1017,13 @@ body.bts {
     border-bottom-right-radius: 3px; }
     #navigation #nav-items li {
       text-transform: uppercase;
-      /*text-align: right;*/
+      color: #1b3f4b;
       list-style: none;
-      font-family: "Bree", sans-serif;
+      font-family: "Brandon Grotesque", Helvetica, sans-serif;
       font-weight: 400;
       font-size: 14px;
       border-bottom: 1px solid rgba(71, 167, 196, 0.3);
-      padding: 13px 45px 11px 15px;
+      padding: 13px 25px 11px;
       margin-bottom: 0; }
       #navigation #nav-items li a {
         color: #47a7c4; }
@@ -1030,6 +1031,16 @@ body.bts {
         border-bottom: 0; }
       #navigation #nav-items li:first-child {
         border-top: 1px solid rgba(71, 167, 196, 0.3); }
+    #navigation #nav-items #contact-item {
+      text-transform: none;
+      font-weight: normal; }
+      #navigation #nav-items #contact-item a {
+        color: inherit; }
+      #navigation #nav-items #contact-item strong {
+        color: #47a7c4;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 4px; }
 
 #hc-cup-main {
   margin-top: 100px;

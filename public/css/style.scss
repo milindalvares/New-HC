@@ -447,6 +447,7 @@ body.bts {
 	}
 	#request-instruction {
 		margin-top: 20px;
+		color: lighten($darkBlue, 20%);
 	}
 
 }
@@ -1310,7 +1311,7 @@ background: lighten($dark, 2%);
 		z-index: -1;
 		right: 32px;
 		top: 32px;
-		width: 200px;
+		width: 230px;
 		float: left;
 		border: 1px solid transparentize(#47a7c4, 0.7);
 		background: transparentize(white, 0);
@@ -1319,14 +1320,14 @@ background: lighten($dark, 2%);
 		border-bottom-right-radius: 3px;
 		li {
 			text-transform: uppercase;
-			/*text-align: right;*/
+			color: $dark;
 			list-style: none;
-			font-family: $sansAlt;
+			font-family: $sans;
 			font-weight: 400;
 			font-size: 14px;
 			
 			border-bottom: 1px solid transparentize(#47a7c4, 0.7);
-			padding: 13px 45px 11px 15px;
+			padding: 13px 25px 11px;
 			margin-bottom: 0;
 			a {
 				color: #47a7c4;
@@ -1337,6 +1338,19 @@ background: lighten($dark, 2%);
 			&:first-child {
 				border-top: 1px solid transparentize(#47a7c4, 0.7);;
 			}	
+		}
+		#contact-item {
+			text-transform: none;
+			font-weight: normal;
+			a {
+				color: inherit;
+			}
+			strong {
+				color: #47a7c4;
+				text-transform: uppercase;
+				display: block;
+				margin-bottom: 4px;
+			}
 		}
 	}
 }
