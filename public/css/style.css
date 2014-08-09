@@ -61,6 +61,9 @@ h1, h2, h3, h4 {
   font-weight: bold;
   text-transform: uppercase; }
 
+.underline {
+  text-decoration: underline; }
+
 body {
   font-family: "Brandon Grotesque", Helvetica, sans-serif;
   background-color: #1b3f4b;
@@ -316,16 +319,16 @@ body.bts {
 
 .request-quote-block {
   margin-top: 50px;
-  margin-bottom: 100px; }
+  margin-bottom: 50px; }
   .request-quote-block h3 {
     font-size: 42px; }
   .request-quote-block .request-block {
     margin-top: 25px;
-    padding: 25px;
-    opacity: 0; }
-  .request-quote-block .selected {
-    background: #1e4552;
-    border: 1px solid #224f5e; }
+    padding: 25px; }
+    .request-quote-block .request-block h4 {
+      font-size: 18px !important;
+      color: #357f95;
+      text-align: center; }
   .request-quote-block .glyphicon {
     font-size: 18px; }
 
