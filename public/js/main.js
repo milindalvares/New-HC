@@ -129,6 +129,8 @@ $(document).ready(function() {
 //			opacity: 1
 //		}, 800);
 //	}, 11000);
+
+	skrollr.init();
 	
 	$(window).load(function() {
 		

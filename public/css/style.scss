@@ -428,10 +428,10 @@ body.bts {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	h3 {
-		font-size: 42px;
+		font-size: 48px !important;
 	}
 	.request-block {
-		margin-top: 25px;
+		margin-top: 5px;
 		padding: 25px;
 		h4 {
 			font-size: 18px !important;
@@ -441,6 +441,12 @@ body.bts {
 	}
 	.glyphicon {
 		font-size: 18px;
+	}
+	.bullets {
+		color: lighten($darkBlue, 20%);
+	}
+	#request-instruction {
+		margin-top: 20px;
 	}
 
 }
@@ -814,9 +820,10 @@ body.bts {
 }
 
 #footer {
-padding-bottom: 10px;
+padding-bottom: 30px;
 padding-top: 40px;
 border-top: 1px solid lighten($dark, 10%);
+background: lighten($dark, 2%);
 	.contact-info-wrap {
 		margin-top: 20px;
 	}
@@ -1366,14 +1373,12 @@ border-top: 1px solid lighten($dark, 10%);
 		font-family: $sans;
 	}
 	#footer {
+		background: transparent;
 		border-top: 1px solid #ddd;
 		hr {
 			border-color: #ddd;
 		}
 		#hc-logo {
-			circle {
-				display: none;
-			}
 			#hc-logo2 path {
 				fill: $red;
 			}

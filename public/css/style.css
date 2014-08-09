@@ -321,9 +321,9 @@ body.bts {
   margin-top: 50px;
   margin-bottom: 50px; }
   .request-quote-block h3 {
-    font-size: 42px; }
+    font-size: 48px !important; }
   .request-quote-block .request-block {
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 25px; }
     .request-quote-block .request-block h4 {
       font-size: 18px !important;
@@ -331,6 +331,10 @@ body.bts {
       text-align: center; }
   .request-quote-block .glyphicon {
     font-size: 18px; }
+  .request-quote-block .bullets {
+    color: #357f95; }
+  .request-quote-block #request-instruction {
+    margin-top: 20px; }
 
 .intro-container {
   background: #225465;
@@ -607,9 +611,10 @@ body.bts {
     margin-bottom: 20px; }
 
 #footer {
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   padding-top: 40px;
-  border-top: 1px solid #295e70; }
+  border-top: 1px solid #295e70;
+  background: #1e4552; }
   #footer .contact-info-wrap {
     margin-top: 20px; }
   #footer h4 {
@@ -1050,11 +1055,10 @@ body.bts {
   color: #1a3f4a;
   font-family: "Brandon Grotesque", Helvetica, sans-serif; }
 .bts #footer {
+  background: transparent;
   border-top: 1px solid #ddd; }
   .bts #footer hr {
     border-color: #ddd; }
-  .bts #footer #hc-logo circle {
-    display: none; }
   .bts #footer #hc-logo #hc-logo2 path {
     fill: #ee4853; }
   .bts #footer #cold-quote {
