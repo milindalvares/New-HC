@@ -438,6 +438,11 @@ body.bts {
 			color: lighten($darkBlue, 20%);
 			text-align: center;
 		}		
+		svg {
+			&:hover {
+				opacity: 0.6;
+			}
+		}
 	}
 	.glyphicon {
 		font-size: 18px;

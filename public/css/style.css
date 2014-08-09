@@ -329,6 +329,8 @@ body.bts {
       font-size: 18px !important;
       color: #357f95;
       text-align: center; }
+    .request-quote-block .request-block svg:hover {
+      opacity: 0.6; }
   .request-quote-block .glyphicon {
     font-size: 18px; }
   .request-quote-block .bullets {
