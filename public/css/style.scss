@@ -105,21 +105,22 @@ body.bts {
 }
 
 .btn-primary {
-	background: $red;
+	background: transparent;
 	font-family: $sansAlt;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 18px;
 	border: none;
-	color: $yl;
-	padding: 15px 35px;
+	color: $red;
+	padding: 0;
 	border-radius: 0;
+	.glyphicon {
+		font-size: 15px;
+	}
 }
 .cover {
 	color: $yl;
-	width: 90%;
-	max-width: 1280px;
-	margin: 50px auto 0px;
+	width: 100%;
 	
 }
 
@@ -458,9 +459,9 @@ body.bts {
 }
 
 .intro-container {
-	background: #225465;
-	padding-top: 50px;
-	margin-top: -20px;
+	background: #153640;
+	padding-top: 100px;
+	margin-top: -40px;
 	position: relative;
 	z-index: 30;
 	.titles {
@@ -1087,22 +1088,24 @@ background: lighten($dark, 2%);
 .mountains {
 	position: fixed;
 	z-index: -10;
-	bottom: -80px;
+	bottom: 0px;
 	width: 100% !important;
-	left: 0;
+
 	right: 0;
-	path {
-		width: 100% !important;
-	}
 }
 
 #front-mountain-wrap {
 	position: absolute;
 	z-index: 1;
-	bottom: -80px;
-	left: 0;
-	right: 0;
-	width: 100%;
+}
+
+#mid-mountain-2 {
+	svg {
+		position: absolute;
+		right: 0;
+		z-index: 100;
+		bottom: 0;
+	}
 }
 
 #main-intro {
@@ -1117,7 +1120,7 @@ background: lighten($dark, 2%);
 	left: 0;
 	right: 0;
 	top: 0;
-	z-index: -5;
+	z-index: -50;
 	background-repeat: repeat-x;
 	
 }
@@ -1265,7 +1268,7 @@ background: lighten($dark, 2%);
 
 #navigation {
 	position: fixed;
-	z-index: 5000;
+	z-index: 500000;
 	right: 20px;
 	top: 0;
 	#menu-btn {
@@ -1273,7 +1276,9 @@ background: lighten($dark, 2%);
 		width: 32px;
 		float: right;
 		height: 32px;
-		padding: 10px 8px;
+		padding: 9px 7px;
+		border: 1px solid #47a7c4;
+		border-top: none;
 		.menubar {
 			width: 100%;
 			background: #47a7c4;
@@ -1314,7 +1319,7 @@ background: lighten($dark, 2%);
 		padding-top: 0px;
 		position: absolute;
 		z-index: -1;
-		right: 32px;
+		right: 0px;
 		top: 32px;
 		width: 230px;
 		float: left;
@@ -1328,7 +1333,7 @@ background: lighten($dark, 2%);
 			color: $dark;
 			list-style: none;
 			font-family: $sans;
-			font-weight: 400;
+			font-weight: 600;
 			font-size: 14px;
 			
 			border-bottom: 1px solid transparentize(#47a7c4, 0.7);

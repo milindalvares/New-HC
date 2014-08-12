@@ -74,21 +74,21 @@ body.bts {
   color: #1b3f4b; }
 
 .btn-primary {
-  background: #ee4853;
+  background: transparent;
   font-family: "Bree", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
   border: none;
-  color: #e8ea1c;
-  padding: 15px 35px;
+  color: #ee4853;
+  padding: 0;
   border-radius: 0; }
+  .btn-primary .glyphicon {
+    font-size: 15px; }
 
 .cover {
   color: #e8ea1c;
-  width: 90%;
-  max-width: 1280px;
-  margin: 50px auto 0px; }
+  width: 100%; }
 
 .intro {
   font-family: "FreightText", Georgia, serif;
@@ -340,9 +340,9 @@ body.bts {
     color: #357f95; }
 
 .intro-container {
-  background: #225465;
-  padding-top: 50px;
-  margin-top: -20px;
+  background: #153640;
+  padding-top: 100px;
+  margin-top: -40px;
   position: relative;
   z-index: 30; }
   .intro-container .titles h2 {
@@ -824,20 +824,19 @@ body.bts {
 .mountains {
   position: fixed;
   z-index: -10;
-  bottom: -80px;
+  bottom: 0px;
   width: 100% !important;
-  left: 0;
   right: 0; }
-  .mountains path {
-    width: 100% !important; }
 
 #front-mountain-wrap {
   position: absolute;
-  z-index: 1;
-  bottom: -80px;
-  left: 0;
+  z-index: 1; }
+
+#mid-mountain-2 svg {
+  position: absolute;
   right: 0;
-  width: 100%; }
+  z-index: 100;
+  bottom: 0; }
 
 #main-intro {
   position: fixed;
@@ -850,7 +849,7 @@ body.bts {
   left: 0;
   right: 0;
   top: 0;
-  z-index: -5;
+  z-index: -50;
   background-repeat: repeat-x; }
 
 #stars-1 {
@@ -965,7 +964,7 @@ body.bts {
 
 #navigation {
   position: fixed;
-  z-index: 5000;
+  z-index: 500000;
   right: 20px;
   top: 0; }
   #navigation #menu-btn {
@@ -973,7 +972,9 @@ body.bts {
     width: 32px;
     float: right;
     height: 32px;
-    padding: 10px 8px; }
+    padding: 9px 7px;
+    border: 1px solid #47a7c4;
+    border-top: none; }
     #navigation #menu-btn .menubar {
       width: 100%;
       background: #47a7c4;
@@ -1008,7 +1009,7 @@ body.bts {
     padding-top: 0px;
     position: absolute;
     z-index: -1;
-    right: 32px;
+    right: 0px;
     top: 32px;
     width: 230px;
     float: left;
@@ -1022,7 +1023,7 @@ body.bts {
       color: #1b3f4b;
       list-style: none;
       font-family: "Brandon Grotesque", Helvetica, sans-serif;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 14px;
       border-bottom: 1px solid rgba(71, 167, 196, 0.3);
       padding: 13px 25px 11px;
