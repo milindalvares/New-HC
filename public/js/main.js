@@ -83,10 +83,10 @@ $(document).ready(function() {
 //	  v.eq(cur++).addClass('popin');
 //	  if(cur != v.length) setTimeout(fadeInNextLI, 100);
 //	}
-	
-	setTimeout(function() {
-		fadeInNextLI()
-	}, 4000);
+//	
+//	setTimeout(function() {
+//		fadeInNextLI()
+//	}, 4000);
 	
 	setTimeout(function() {
 		$('#clouds-pair #icons g').addClass('popin');
@@ -130,7 +130,7 @@ $(document).ready(function() {
 //		}, 800);
 //	}, 11000);
 
-	skrollr.init();
+//	skrollr.init();
 	
 	$(window).load(function() {
 		

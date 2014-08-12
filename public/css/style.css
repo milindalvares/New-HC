@@ -5978,7 +5978,7 @@ body.bts {
   position: fixed;
   left: 0;
   z-index: -1;
-  bottom: 250px; }
+  bottom: 240px; }
   #large-cloud-group #code-icon path {
     fill: #1c404b; }
 
@@ -6022,7 +6022,7 @@ body.bts {
   height: 214px;
   position: fixed;
   bottom: 300px;
-  right: 10px; }
+  right: 0px; }
   #clouds-pair #small-clouds path {
     stroke: #0dbdcf;
     fill: #225465;
@@ -6181,7 +6181,7 @@ body.bts {
   stroke-opacity: 0; }
   .animate #social-web-lines path {
     stroke-opacity: 1;
-    -webkit-animation: socialweblines 10s linear; }
+    -webkit-animation: socialweblines 6s linear; }
 
 #social-web-circles circle {
   stroke: #ee4853;
@@ -6192,12 +6192,12 @@ body.bts {
   stroke-opacity: 0; }
   .animate #social-web-circles circle {
     stroke-opacity: 1;
-    -webkit-animation: socialwebcircle 6s linear; }
+    -webkit-animation: socialwebcircle 3s linear; }
 
 #social-web-icons path {
   opacity: 0;
   -webkit-transition-duration: 400ms;
-  -webkit-transition-delay: 4s; }
+  -webkit-transition-delay: 2s; }
   .animate #social-web-icons path {
     opacity: 1; }
 

@@ -921,7 +921,7 @@ background: lighten($dark, 2%);
 	position: fixed;
 	left: 0;
 	z-index: -1;
-	bottom: 250px;
+	bottom: 240px;
 	#code-icon path {
 		fill: #1c404b;
 	}
@@ -973,7 +973,7 @@ background: lighten($dark, 2%);
 	height: 214px;
 	position: fixed;
 	bottom: 300px;
-	right: 10px;
+	right: 0px;
 	#small-clouds path {
 		stroke: #0dbdcf;
 		fill: #225465;
@@ -1170,7 +1170,7 @@ background: lighten($dark, 2%);
 	stroke-opacity: 0;
 	.animate & {
 		stroke-opacity: 1;
-		-webkit-animation: socialweblines 10s linear;
+		-webkit-animation: socialweblines 6s linear;
 	}
 }
 
@@ -1183,14 +1183,14 @@ background: lighten($dark, 2%);
 	stroke-opacity: 0;
 	.animate & {
 		stroke-opacity: 1;
-		-webkit-animation: socialwebcircle 6s linear;
+		-webkit-animation: socialwebcircle 3s linear;
 	}	
 }
 
 #social-web-icons path {
 	opacity: 0;
 	-webkit-transition-duration: 400ms;
-	-webkit-transition-delay: 4s;
+	-webkit-transition-delay: 2s;
 	.animate & {
 		opacity: 1;
 	}
