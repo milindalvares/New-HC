@@ -5978,20 +5978,9 @@ body.bts {
   position: fixed;
   left: 0;
   z-index: -1;
-  bottom: 300px; }
-  #large-cloud-group #large-cloud-icons path {
+  bottom: 250px; }
+  #large-cloud-group #code-icon path {
     fill: #1c404b; }
-  #large-cloud-group #large-cloud-icons g {
-    -webkit-transition-duration: 400ms;
-    opacity: 0; }
-  #large-cloud-group #large-cloud-icons g.popin {
-    opacity: 1; }
-  #large-cloud-group circle {
-    stroke: #1c404b;
-    fill: none; }
-  @media (max-width: 992px) {
-    #large-cloud-group {
-      display: none; } }
 
 @-webkit-keyframes cloudlong {
   0% {
@@ -6019,7 +6008,7 @@ body.bts {
   stroke-dashoffset: 0;
   stroke-width: 1px;
   fill-opacity: 0;
-  fill: #2e677a;
+  fill: #225465;
   stroke-opacity: 0; }
   .animate #large-cloud {
     stroke-opacity: 1;
@@ -6036,7 +6025,7 @@ body.bts {
   right: 10px; }
   #clouds-pair #small-clouds path {
     stroke: #0dbdcf;
-    fill: #2e677a;
+    fill: #225465;
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     stroke-width: 1px;
