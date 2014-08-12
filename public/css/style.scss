@@ -1,3 +1,5 @@
+@import 'bootstrap/bootstrap';
+
 $serif: "FreightText", Georgia, serif;
 $sans: "Brandon Grotesque", Helvetica, sans-serif;
 $sansAlt: "Bree", sans-serif;
@@ -8,6 +10,7 @@ $vibBlue: #10a7c7;
 $dark: #1b3f4b;
 $darkBlue: #1a3f4a;
 $black: #332222;
+
 
 * {
 	-webkit-box-sizing: border-box;
@@ -918,7 +921,7 @@ background: lighten($dark, 2%);
 	position: fixed;
 	left: 0;
 	z-index: -1;
-	bottom: 350px;
+	bottom: 300px;
 	#large-cloud-icons path {
 		fill: #1c404b;
 	}
@@ -932,6 +935,9 @@ background: lighten($dark, 2%);
 	circle {
 		stroke: #1c404b;
 		fill: none;
+	}
+	@media (max-width: $screen-md-min) {
+		display: none;
 	}
 }
 
