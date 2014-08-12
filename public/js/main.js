@@ -77,12 +77,12 @@ $(document).ready(function() {
 		$(this).addClass('animate');
 	}, { offset: '70%'});
 	
-	var v = $("#large-cloud-icons g"), cur = 0;
-	for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
-	function fadeInNextLI() {
-	  v.eq(cur++).addClass('popin');
-	  if(cur != v.length) setTimeout(fadeInNextLI, 100);
-	}
+//	var v = $("#large-cloud-icons g"), cur = 0;
+//	for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);
+//	function fadeInNextLI() {
+//	  v.eq(cur++).addClass('popin');
+//	  if(cur != v.length) setTimeout(fadeInNextLI, 100);
+//	}
 	
 	setTimeout(function() {
 		fadeInNextLI()
@@ -102,11 +102,11 @@ $(document).ready(function() {
 	
 	setTimeout(function() {
 		$('#scroll-tip').addClass('animate');
-	}, 14000);
+	}, 9000);
 	
 	setTimeout(function() {
 		$('.intro-text').addClass('animate');
-	}, 9000);
+	}, 7000);
 	
 	setInterval(function() {
 		
