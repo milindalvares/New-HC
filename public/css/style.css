@@ -5634,9 +5634,9 @@ body.bts {
     color: #357f95; }
 
 .intro-container {
-  background: #153640;
-  padding-top: 100px;
-  margin-top: -40px;
+  background: #1a3e4b;
+  margin-top: 400px;
+  padding-top: 50px;
   position: relative;
   z-index: 30; }
   .intro-container .titles h2 {
@@ -6116,7 +6116,8 @@ body.bts {
 
 #front-mountain-wrap {
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  display: none; }
 
 #mid-mountain-2 svg {
   position: absolute;
