@@ -969,6 +969,7 @@ background: lighten($dark, 2%);
 
 #clouds-pair {
 	z-index: -2;
+	
 	width: 387px;
 	height: 214px;
 	position: fixed;
@@ -994,6 +995,12 @@ background: lighten($dark, 2%);
 	}
 }
 
+#tiny-clouds {
+	position: fixed;
+	bottom: 200px;
+	left: 62%;
+	z-index: -5;
+}
 
 @-webkit-keyframes logosmall {
 	0% {
@@ -1080,6 +1087,10 @@ background: lighten($dark, 2%);
 	position: absolute;
 	z-index: 1;
 	display: none;
+}
+
+#mid-mountain-1 {
+	z-index: -2;
 }
 
 #mid-mountain-2 {
