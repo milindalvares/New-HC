@@ -6036,13 +6036,6 @@ body.bts {
       stroke-width: 0;
       fill-opacity: 1;
       -webkit-animation: cloudlong 3s linear; }
-  #clouds-pair #icons path {
-    fill: #1c404b; }
-  #clouds-pair #icons g {
-    -webkit-transition-duration: 400ms;
-    opacity: 0; }
-  #clouds-pair #icons g.popin {
-    opacity: 1; }
   #clouds-pair #lightning {
     opacity: 0; }
 

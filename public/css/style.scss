@@ -984,20 +984,10 @@ background: lighten($dark, 2%);
 		stroke-opacity: 0;
 		.animate & {
 			stroke-opacity: 1;
-			stroke-width: 0;
+			stroke-width:0;
 			fill-opacity: 1;
 			-webkit-animation: cloudlong 3s linear;
 		}
-	}
-	#icons path {
-		fill: #1c404b;
-	}
-	#icons g {
-		-webkit-transition-duration: 400ms;
-		opacity: 0;
-	}
-	#icons g.popin {
-		opacity: 1;
 	}
 	#lightning {
 		opacity: 0;
