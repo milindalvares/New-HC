@@ -5977,8 +5977,8 @@ body.bts {
 #large-cloud-group {
   position: fixed;
   left: 0;
-  z-index: -1;
-  bottom: 240px; }
+  z-index: -5;
+  bottom: 150px; }
   #large-cloud-group #code-icon path {
     fill: #1c404b; }
 
@@ -6008,7 +6008,7 @@ body.bts {
   stroke-dashoffset: 0;
   stroke-width: 1px;
   fill-opacity: 0;
-  fill: #225465;
+  fill: #1E4856;
   stroke-opacity: 0; }
   .animate #large-cloud {
     stroke-opacity: 1;
@@ -6017,15 +6017,15 @@ body.bts {
     -webkit-animation: cloudlong 3s linear; }
 
 #clouds-pair {
-  z-index: -2;
+  z-index: -5;
   width: 387px;
   height: 214px;
   position: fixed;
-  bottom: 300px;
+  bottom: 250px;
   right: 0px; }
   #clouds-pair #small-clouds path {
     stroke: #0dbdcf;
-    fill: #225465;
+    fill: #1E4856;
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     stroke-width: 1px;
