@@ -6022,8 +6022,8 @@ body.bts {
   height: 214px;
   position: fixed;
   bottom: 250px;
-  right: 0px; }
-  #clouds-pair #small-clouds path {
+  right: -90px; }
+  #clouds-pair #small-clouds path, #clouds-pair #small-clouds ellipse {
     stroke: #0dbdcf;
     fill: #1E4856;
     stroke-dasharray: 1000;
@@ -6031,13 +6031,11 @@ body.bts {
     stroke-width: 1px;
     fill-opacity: 0;
     stroke-opacity: 0; }
-    .animate #clouds-pair #small-clouds path {
+    .animate #clouds-pair #small-clouds path, .animate #clouds-pair #small-clouds ellipse {
       stroke-opacity: 1;
       stroke-width: 0;
       fill-opacity: 1;
       -webkit-animation: cloudlong 3s linear; }
-  #clouds-pair #lightning {
-    opacity: 0; }
 
 #tiny-clouds {
   position: fixed;

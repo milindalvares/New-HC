@@ -974,8 +974,8 @@ background: lighten($dark, 2%);
 	height: 214px;
 	position: fixed;
 	bottom: 250px;
-	right: 0px;
-	#small-clouds path {
+	right: -90px;
+	#small-clouds path, #small-clouds ellipse {
 		stroke: #0dbdcf;
 		fill: #1E4856;
 		stroke-dasharray: 1000;
@@ -989,9 +989,6 @@ background: lighten($dark, 2%);
 			fill-opacity: 1;
 			-webkit-animation: cloudlong 3s linear;
 		}
-	}
-	#lightning {
-		opacity: 0;
 	}
 }
 
