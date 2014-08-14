@@ -1271,12 +1271,11 @@ background: lighten($dark, 2%);
 		width: 32px;
 		float: right;
 		height: 32px;
-		padding: 9px 7px;
-		border: 1px solid #47a7c4;
-		border-top: none;
+		padding: 9px 8px;
+		background: #47a7c4;
 		.menubar {
 			width: 100%;
-			background: #47a7c4;
+			background: $dark;
 			width: 16px;
 			height: 1px;
 			display: block;
@@ -1304,6 +1303,8 @@ background: lighten($dark, 2%);
 		height: 32px;
 		float: left;
 		text-align: center;
+		margin-top: 8px;
+		margin-left: 8px;
 		path {
 			fill: #47a7c4;
 		}

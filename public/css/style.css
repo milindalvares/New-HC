@@ -6263,12 +6263,11 @@ body.bts {
     width: 32px;
     float: right;
     height: 32px;
-    padding: 9px 7px;
-    border: 1px solid #47a7c4;
-    border-top: none; }
+    padding: 9px 8px;
+    background: #47a7c4; }
     #navigation #menu-btn .menubar {
       width: 100%;
-      background: #47a7c4;
+      background: #1b3f4b;
       width: 16px;
       height: 1px;
       display: block;
@@ -6291,7 +6290,9 @@ body.bts {
     width: 32px;
     height: 32px;
     float: left;
-    text-align: center; }
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 8px; }
     #navigation #contact-btn path {
       fill: #47a7c4; }
   #navigation #nav-items {
