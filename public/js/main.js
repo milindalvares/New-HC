@@ -123,6 +123,10 @@ $(document).ready(function() {
 		return false;
 	});
 	
+	$('#scroll-tip').click(function() {
+		$.scrollTo('#intro-container', 1600, {offset: -100});
+		return false;
+	});
 //	setTimeout(function(){
 //		$('#navbar-main').animate({
 //			marginTop: '20px',

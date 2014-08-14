@@ -5633,18 +5633,22 @@ body.bts {
     margin-top: 20px;
     color: #357f95; }
 
-.intro-container {
+#intro-container {
   /*background: #1a3e4b;*/
   margin-top: 400px;
   padding-top: 50px;
   position: relative;
   z-index: 30; }
-  .intro-container .titles h2 {
+  #intro-container .titles h2 {
     margin-top: 0;
     font-size: 60px; }
-  .intro-container .lead {
+  #intro-container .lead {
     font-weight: 400;
-    line-height: 160%; }
+    line-height: 160%;
+    font-size: 20px; }
+    @media (max-width: 1199px) {
+      #intro-container .lead {
+        font-size: 18px; } }
 
 #intro-screenshots {
   position: relative;
