@@ -6257,21 +6257,21 @@ body.bts {
   position: fixed;
   z-index: 500000;
   right: 20px;
-  top: 0; }
+  top: 20px; }
   #navigation #menu-btn {
     display: block;
-    width: 32px;
+    width: 26px;
     float: right;
-    height: 32px;
-    padding: 9px 8px;
-    background: #47a7c4; }
+    height: 24px;
+    padding: 5px 5px;
+    border: 1px solid #47a7c4; }
     #navigation #menu-btn .menubar {
       width: 100%;
-      background: #1b3f4b;
-      width: 16px;
+      background: #47a7c4;
+      width: 14px;
       height: 1px;
       display: block;
-      margin-bottom: 5px; }
+      margin-bottom: 4px; }
   #navigation #menu-btn.clicked {
     background: white; }
   #navigation #nav-title {
@@ -6291,10 +6291,10 @@ body.bts {
     height: 32px;
     float: left;
     text-align: center;
-    margin-top: 8px;
-    margin-left: 8px; }
-    #navigation #contact-btn path {
-      fill: #47a7c4; }
+    margin-top: 3px;
+    margin-left: 7px; }
+    #navigation #contact-btn svg {
+      padding-right: 1px; }
   #navigation #nav-items {
     padding: 0;
     display: none;
