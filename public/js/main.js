@@ -17,17 +17,13 @@ $(document).ready(function() {
 	}
 	
 	$('#main-intro').css({
-		top: (winH - 550) / 2
+		top: (winH - 450) / 2,
+		left: (winW - $('#main-intro').width()) / 2
 	});
 	
 	$('#hc-logo-large').css({
 		left: (winW - 180) / 2
 	});
-	
-	$('#main-intro').css({
-		left: (winW - $('#main-intro').width()) / 2
-	});
-
 	
 	$('#start').css({ 
 		'marginTop': winH

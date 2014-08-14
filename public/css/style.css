@@ -5384,32 +5384,32 @@ body.bts {
   color: #e8ea1c;
   width: 100%; }
 
-.intro {
+#main-intro {
   font-family: "FreightText", Georgia, serif;
   font-style: italic;
   /*font-weight: 100;*/
   text-align: center; }
-  .intro p {
+  #main-intro p {
     font-size: 22px; }
-  .intro .intro-text {
+  #main-intro .intro-text {
     opacity: 0;
     -webkit-transition-duration: 1600ms;
     /*-webkit-transform: scale(.9);*/
     /*-webkit-transition-delay: 6s;*/ }
-  .intro .intro-text.animate {
+  #main-intro .intro-text.animate {
     opacity: 1;
     -webkit-transform: scale(1); }
-  .intro .main-title {
+  #main-intro .main-title {
     margin-top: 50px;
     font-family: "Bree", sans-serif;
     font-size: 24px;
     font-style: normal; }
-  .intro h1 {
+  #main-intro h1 {
     font-size: 42px;
     margin-top: 0;
     text-transform: uppercase;
     font-weight: bold; }
-    .intro h1 span {
+    #main-intro h1 span {
       text-transform: none;
       /*			font-weight: 100;
       			font-family: $serif;
