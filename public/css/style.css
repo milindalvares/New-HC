@@ -6263,7 +6263,7 @@ body.bts {
     width: 26px;
     float: right;
     height: 24px;
-    padding: 5px 5px;
+    padding: 5px;
     border: 1px solid #47a7c4; }
     #navigation #menu-btn .menubar {
       width: 100%;
@@ -6273,7 +6273,9 @@ body.bts {
       display: block;
       margin-bottom: 4px; }
   #navigation #menu-btn.clicked {
-    background: white; }
+    background: white;
+    border-color: rgba(71, 167, 196, 0.3);
+    border-bottom: none; }
   #navigation #nav-title {
     float: left;
     /*background: white;*/
@@ -6301,8 +6303,8 @@ body.bts {
     padding-top: 0px;
     position: absolute;
     z-index: -1;
-    right: 0px;
-    top: 32px;
+    right: 39px;
+    top: 24px;
     width: 230px;
     float: left;
     border: 1px solid rgba(71, 167, 196, 0.3);

@@ -1271,7 +1271,7 @@ background: lighten($dark, 2%);
 		width: 26px;
 		float: right;
 		height: 24px;
-		padding: 5px 5px;
+		padding: 5px;
 		border: 1px solid #47a7c4;
 		.menubar {
 			width: 100%;
@@ -1284,6 +1284,9 @@ background: lighten($dark, 2%);
 	}
 	#menu-btn.clicked {
 		background: white;
+		border-color: transparentize(#47a7c4, 0.7);
+		border-bottom: none;
+		
 	}
 	#nav-title {
 		float: left;
@@ -1315,8 +1318,8 @@ background: lighten($dark, 2%);
 		padding-top: 0px;
 		position: absolute;
 		z-index: -1;
-		right: 0px;
-		top: 32px;
+		right: 39px;
+		top: 24px;
 		width: 230px;
 		float: left;
 		border: 1px solid transparentize(#47a7c4, 0.7);
