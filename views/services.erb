@@ -110,90 +110,56 @@
 <div class="modal fade bs-example-modal-lg" id="request-quote" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-     	<div class="col-md-12">
-     		<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-	 			<h4>Request for a <strong>Portfolio</strong> Website</h4></br>
-	 			<div class="row">	
-	 				<div class="col-md-4"> 
+ 		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+ 			<h4 class="text-center">Request for a <strong>Portfolio</strong> Website</h4></br>	
+			<div class="col-md-9"> 
+	        	<div class="row">
+    	        	<div class="col-md-6">
 	    	        	<div class="form-group">
-			        		<div class="input-group">
-								<div class="input-group-addon">@</div>
-							    <input class="form-control input-lg" type="email" placeholder="Enter email">
-			    			</div>
+	    	        		<label for="email">Your Email</label>
+						    <input class="form-control input-lg" type="email" placeholder="Your Email">
 	    			 	</div>
-					</div>
-					<div class="col-md-4"> 	
-	     				<div class="form-group">
-					      <input class="form-control input-lg" type="email" placeholder="Enter Phone">
-				 		</div>
-					</div>		
-					<div class="col-md-4 text-center">	    			 	
-	     				<button class="btn btn-large btn-primary" type="submit">Send Request</button>	         			
-	     			</div>
-     			</div>			
-     		</div>
-     		
+    			 	</div>
+    			 	<div class="col-md-6">
+	    			 	<div class="form-group">
+	    			 		<label for="phone">Your phone</label>
+	    			 		<input class="form-control input-lg" type="email" placeholder="Your Phone (Optional)">
+	    			 	</div>
+    			 	</div>
+			 	</div>
+			</div>
+			<div class="col-md-3">	    			 	
+ 				<button class="btn btn-large btn-primary" type="submit">Send Request</button>	         			
+ 			</div>
+ 		</div>
+   	  	<!-- Header ends -->
+   	  	<div class="clearfix"></div>
+     	
+		<div class="modal-body">
+			<div class="col-md-7">
+				<h4>Project Brief (Optional)</h4>
+        	</div>
+        	<div class="clearfix"></div>
+        	<div class="col-md-7">	        		
+				<textarea class="form-control" rows="10"></textarea>		
+    		</div> 
+    		<div class="col-md-5" id="optional-instructions">
+    			<h5>Information you could provide:</h5>
+    			<ul>
+    				<li>Describing your business.</li>
+    				<li>Is it an existing or new project?</li>
+    				<li>Links to websites that resemble your project plan.</li>
+    				<li>Deadline for this project, if any.</li>
+    				<li>Specific features like blog, shopping cart, mobile layout…</li>
+    				<li>Do you have content ready?</li>
+    				<li>Do you have a domain and hosting?</li>
+    				<li>What is the budget for this project? <small>(Why we ask about budget)</small></li>
+    			</ul>
+    			<!--<p class="tooltip">The production of software can go through an endless amount of refinements. However, time is money, so it's important to know how much we can spend, so we can decide what to spend it on. Budget decides the complexity of features that we would pursue. How many design iterations? Will the site have a separate mobile frontend? Will it be ajaxed? Do we animate? We'd rather give you a simple but working site than promise tons of features that are ultimately broken because the budget couldn't sustain it.</p>-->
+    		</div>
+        </div> <!--end modal body-->
 
-         <!-- Header ends -->
-         	
-			<div class="modal-body">
-			<div class="col-md-12">
-				<h4>Optional Details</h4>
-        			<p>Help us be more accurate with our estimate.</p>
-        	</div>		
-            	<div class="col-md-8">
-            		<div class="row">	
-		            	<div class="col-md-6"><input type="text" name="" value="" placeholder="Your Name" class="form-control" /></div>
-		            	<div class="col-md-6"><input type="text" name="" value="" placeholder="Your Location" class="form-control" /></div>
-            		</div>
-            		<div class="row">	
-		            	<div class="col-md-6">
-		            		<input type="text" name="" value="" placeholder="Budget" class="form-control" />
-							<span class="help-block"><small>Your budget can help us be more flexible with our estimates. Don't worry, the cups of tea come free.</small></span>
-						</div>
-		            	<div class="col-md-6"><input type="text" name="" value="" placeholder="Existing Website Link" class="form-control" /></div>
-            		</div>
-            	</div>
-            	<!-- contact field ends -->
-
-            	<div class="col-md-4">
-            		<textarea placeholder="Website References" rows="5" class="form-control"></textarea>
-            	</div>
-            	<!-- reference box ends -->
-
-            	<div class="col-md-12">
-            			<h5>Would you need?</h5>
-		     			<div class="checkbox-inline">
-						    <input type="checkbox" value="">Logo Design
-						</div>	
-	     				<div class="checkbox-inline">
-						    <input type="checkbox" value="">Photography
-						</div>
-	         			<div class="checkbox-inline">
-						    <input type="checkbox" value="">Copywriting
-						</div>
-	         			<div class="checkbox-inline">
-						    <input type="checkbox" value="">Domain and Hosting
-						</div>
-				</div>	
-				<!--checkbox ends  -->
-
-	        	
-	        	<div class="col-md-12">	        		
-		         	<h5>We miss something?</h5>
-		         	<textarea class="form-control" rows="3"></textarea>		
-	         	</div> 
-
-            </div>
-         </div>                
-         <!-- Content ends -->
-
-         
-         
-		         <div class="modal-footer text-center">
-					<button class="btn btn-large btn-primary" type="submit">Send with Details</button>
-		         </div>
-       </div>
+     </div>  <!-- Content ends -->
   </div>
 </div>

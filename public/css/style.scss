@@ -797,39 +797,79 @@ body.bts {
 		box-shadow: none;
 	}
 	.modal-header {
-		padding: 20px 25px;
+		overflow: auto;
+		padding-bottom: 20px;
 		h4 {
 			color: $black;
 			font-family: $sans;
 			font-weight: 100;
 			text-transform: none;
 			font-size: 30px;
+			margin-bottom: 30px;
+			border-bottom: 1px solid #ddd;
+			padding-bottom: 15px;
 		}
 		p {
 			font-family: $serif;
+		}
+		label {
+			display: none;
 		}
 	}
 	.modal-footer {
 		border-top: none;
 	}
-	.modal-body {
-		/*background: $yl;*/
-	}
 	.btn-primary {
-		padding: 7px 15px;
+		padding: 11px 13px;
 		border-radius: 4px;
-		font-size: 14px;
-		background: white;
-		color: $red;
+		font-size: 16px;
+		background: $red;
+		color: white;
+		width: 100%;
 		border: 1px solid $red;
 	}
 	h5 {
 		text-transform: uppercase;
-		font-weight: bold;
+		font-family: $sansAlt;
 		margin-top: 0;
+		color: $vibBlue;
 	}
 	.row {
 		margin-bottom: 20px;
+	}
+	ul {
+		padding: 0 10px 0 0;
+		li {
+			font-size: 16px;
+			border-bottom: 1px solid #ddd;
+			list-style: none;
+			line-height: 20px;
+			margin-bottom: 7px;
+			padding-bottom: 3px;
+			font-family: $serif;
+		}
+	}
+	textarea {
+		height: 340px;
+	}
+	h4 {
+		margin-bottom: 10px;
+		/*color: $vibBlue;*/
+	}
+	#optional-instructions {
+		margin-top: 10px;
+	}
+	.modal-body {
+		background: $lightG;
+		overflow: auto;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	.modal-footer {
+		background: #eee;
+		padding: 0;
 	}
 }
 
