@@ -1073,6 +1073,36 @@ background: lighten($dark, 2%);
 	}
 }
 
+@keyframes logosmall {
+	0% {
+		stroke-dashoffset: 100;
+		fill-opacity: 0;
+		stroke-width: 1px;
+	}
+	99% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		fill-opacity: 1;
+		stroke-width: 0;
+	}
+}
+
+@keyframes logolong {
+	0% {
+		stroke-dashoffset: 600;
+		fill-opacity: 0;
+		stroke-width: 1px;
+	}
+	99% {
+		stroke-dashoffset: 0;
+	}
+	100% {
+		fill-opacity: 1;
+		stroke-width: 0;
+	}
+}
+
  .logo-short-path {
 	stroke: $red;
 	stroke-dasharray: 100;
@@ -1085,6 +1115,7 @@ background: lighten($dark, 2%);
 		stroke-width: 0;
 		fill-opacity: 1;
 		-webkit-animation: logosmall 5s linear;
+		animation: logosmall 5s linear;
 	}
 }
 
@@ -1100,6 +1131,7 @@ background: lighten($dark, 2%);
 		stroke-width: 0;
 		fill-opacity: 1;
 		-webkit-animation: logolong 5s linear;
+		animation: logolong 5s linear;
 	}
 	
 }

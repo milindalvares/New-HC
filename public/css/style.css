@@ -6106,6 +6106,32 @@ body.bts {
     fill-opacity: 1;
     stroke-width: 0; } }
 
+@keyframes logosmall {
+  0% {
+    stroke-dashoffset: 100;
+    fill-opacity: 0;
+    stroke-width: 1px; }
+
+  99% {
+    stroke-dashoffset: 0; }
+
+  100% {
+    fill-opacity: 1;
+    stroke-width: 0; } }
+
+@keyframes logolong {
+  0% {
+    stroke-dashoffset: 600;
+    fill-opacity: 0;
+    stroke-width: 1px; }
+
+  99% {
+    stroke-dashoffset: 0; }
+
+  100% {
+    fill-opacity: 1;
+    stroke-width: 0; } }
+
 .logo-short-path {
   stroke: #ee4853;
   stroke-dasharray: 100;
@@ -6117,7 +6143,8 @@ body.bts {
     stroke-opacity: 1;
     stroke-width: 0;
     fill-opacity: 1;
-    -webkit-animation: logosmall 5s linear; }
+    -webkit-animation: logosmall 5s linear;
+    animation: logosmall 5s linear; }
 
 .logo-long-path {
   stroke: #ee4853;
@@ -6130,7 +6157,8 @@ body.bts {
     stroke-opacity: 1;
     stroke-width: 0;
     fill-opacity: 1;
-    -webkit-animation: logolong 5s linear; }
+    -webkit-animation: logolong 5s linear;
+    animation: logolong 5s linear; }
 
 #hc-logo-large {
   fill: #ee4853;
