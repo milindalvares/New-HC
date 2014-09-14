@@ -790,7 +790,7 @@ body.bts {
 	}
 }
 
-#request-quote {
+.modal {
 	color: $black;
 	background: transparentize($darkBlue, 0.3);
 	.modal-content {
@@ -870,6 +870,41 @@ body.bts {
 	.modal-footer {
 		background: #eee;
 		padding: 0;
+	}
+}
+
+#contact-modal {
+	.label {
+		color: $darkBlue;
+		padding-left: 0;
+		font-size: 10px;
+		text-transform: uppercase;
+	}
+	h5 {
+		margin-top: 25px;
+		margin-bottom: 5px;
+		font-size: 18px;
+		color: $vibBlue;
+	}
+	h3 {
+		font-weight: 100;
+		text-transform: none;
+	}
+	ul {
+		margin-top: 23px;
+		li {
+			border-bottom: none;
+			font-size: 14px;
+			font-family: $sans;
+			margin-bottom: 0px;
+			line-height: 140%;
+		}
+	} 
+	#hc-logo {
+		margin-top: 5px;
+		path {
+			fill: $red;
+		}
 	}
 }
 

@@ -5878,15 +5878,15 @@ body.bts {
   #cta button {
     float: left; }
 
-#request-quote {
+.modal {
   color: #332222;
   background: rgba(26, 63, 74, 0.7); }
-  #request-quote .modal-content {
+  .modal .modal-content {
     box-shadow: none; }
-  #request-quote .modal-header {
+  .modal .modal-header {
     overflow: auto;
     padding-bottom: 20px; }
-    #request-quote .modal-header h4 {
+    .modal .modal-header h4 {
       color: #332222;
       font-family: "Brandon Grotesque", Helvetica, sans-serif;
       font-weight: 100;
@@ -5895,13 +5895,13 @@ body.bts {
       margin-bottom: 30px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 15px; }
-    #request-quote .modal-header p {
+    .modal .modal-header p {
       font-family: "FreightText", Georgia, serif; }
-    #request-quote .modal-header label {
+    .modal .modal-header label {
       display: none; }
-  #request-quote .modal-footer {
+  .modal .modal-footer {
     border-top: none; }
-  #request-quote .btn-primary {
+  .modal .btn-primary {
     padding: 11px 13px;
     border-radius: 4px;
     font-size: 16px;
@@ -5909,16 +5909,16 @@ body.bts {
     color: white;
     width: 100%;
     border: 1px solid #ee4853; }
-  #request-quote h5 {
+  .modal h5 {
     text-transform: uppercase;
     font-family: "Bree", sans-serif;
     margin-top: 0;
     color: #10a7c7; }
-  #request-quote .row {
+  .modal .row {
     margin-bottom: 20px; }
-  #request-quote ul {
+  .modal ul {
     padding: 0 10px 0 0; }
-    #request-quote ul li {
+    .modal ul li {
       font-size: 16px;
       border-bottom: 1px solid #ddd;
       list-style: none;
@@ -5926,23 +5926,49 @@ body.bts {
       margin-bottom: 7px;
       padding-bottom: 3px;
       font-family: "FreightText", Georgia, serif; }
-  #request-quote textarea {
+  .modal textarea {
     height: 340px; }
-  #request-quote h4 {
+  .modal h4 {
     margin-bottom: 10px;
     /*color: $vibBlue;*/ }
-  #request-quote #optional-instructions {
+  .modal #optional-instructions {
     margin-top: 10px; }
-  #request-quote .modal-body {
+  .modal .modal-body {
     background: #f0f3f4;
     overflow: auto;
     padding-top: 20px;
     padding-bottom: 30px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px; }
-  #request-quote .modal-footer {
+  .modal .modal-footer {
     background: #eee;
     padding: 0; }
+
+#contact-modal .label {
+  color: #1a3f4a;
+  padding-left: 0;
+  font-size: 10px;
+  text-transform: uppercase; }
+#contact-modal h5 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #10a7c7; }
+#contact-modal h3 {
+  font-weight: 100;
+  text-transform: none; }
+#contact-modal ul {
+  margin-top: 23px; }
+  #contact-modal ul li {
+    border-bottom: none;
+    font-size: 14px;
+    font-family: "Brandon Grotesque", Helvetica, sans-serif;
+    margin-bottom: 0px;
+    line-height: 140%; }
+#contact-modal #hc-logo {
+  margin-top: 5px; }
+  #contact-modal #hc-logo path {
+    fill: #ee4853; }
 
 #footer {
   padding-bottom: 30px;
